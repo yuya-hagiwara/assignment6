@@ -15,7 +15,7 @@ public class HelloController {
     }
 
     @GetMapping("/human")
-    public List<Human> gethuman() {
+    public List<Human> GetHuman() {
         List<Human> human = new ArrayList<>();
         human.add(new Human("yuya", 32));
         human.add(new Human("taka", 33));
